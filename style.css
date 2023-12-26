@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Add box-sizing for better layout consistency */
+}
+
+.container {
+    max-width: 80vw;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+.navbar {
+    display: flex;
+    height: 67px;
+    list-style: none; /* Move list-style to navbar to style list items */
+}
+
+.navbar li {
+    margin: 0 12px;
+}
+
+.topleft {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.section1 {
+    max-height: 100vh;
+    color: #5557f5;
+    text-align: center;
+    padding: 2rem;
+}
+
+.section1 h1 {
+    color: #150d37;
+    font-size: 2rem;
+}
+
+.logo {
+    font-size: 1.3rem;
+}
+
+.logo1 {
+    width: 30%;
+}
+
+.topright .gymimg {
+    width: 466px;
+}
+
+.section2 {
+    padding: 73px;
+}
+
+.section2 h1 {
+    font-size: 2.3rem;
+}
+
+.section2 p {
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.box {
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(16, 18, 120);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box h2 {
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.highlighted {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.box ul {
+    list-style-type: none;
+}
+
+.box ul li {
+    margin: 12px 2px;
+}
+
+.plantable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table {
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.section3 table th {
+    width: 23vw;
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+}
+
+.section3 table td {
+    border-bottom: 2px solid black;
+}
+
+.section3 h1 {
+    font-size: 2.3rem;
+}
+
+.section3 {
+    padding: 73px;
+}
+
+footer {
+    padding: 23px;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px 0;
+}
+
+.deal {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 12px 0;
+}
+
+/* Basic styling for the Join Now section */
+.Join {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Styling for the heading */
+.Join h1 {
+    margin: 10px 0;
+    color: #333; /* Set your desired text color */
+}
+
+/* Styling for the form container */
+.Join form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Styling for form labels */
+.Join form label {
+    margin: 5px 0;
+    color: #555; /* Set your desired label color */
+}
+
+/* Styling for form inputs */
+.Join form input {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 200px; /* Set your desired input width */
+    border: 1px solid #ccc; /* Set your desired border color */
+    border-radius: 5px;
+}
+
+/* Styling for the submit button */
+.Join form button.btn {
+    padding: 10px 20px;
+    background-color: #007bff; /* Set your desired button background color */
+    color: #fff; /* Set your desired button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect for the button */
+.Join form button.btn:hover {
+    background-color: #0056b3; /* Set your desired hover background color */
+}
